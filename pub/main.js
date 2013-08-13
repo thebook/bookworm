@@ -11,7 +11,8 @@ define(function () {
 				dependancy : "some_dependancy"
 			},
 			thought : {
-				header : parts.header
+				header : parts.header,
+				main   : parts.landing
 				// bar : {
 				// 	self : ".stuff@This be some bar and text son"
 				// },
