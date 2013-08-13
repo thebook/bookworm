@@ -1,0 +1,94 @@
++ Setup vagrant enviroment and learn it 
+	+ vm, veewwee, boxes 
++ query amazon books 
+	+ search amazon for their books 
+	+ algorithm compontents 
++ Convert server code to js 
+	+ implement server process 
++ Implement mongoDB
+	+ see how mongolab works and use it,
+	+ install mongo db and correct setup 
+	+ convert all code to work with mongo db instead of using MySql
+	+ creae correct objects ( not that its that improtnat ) 
++ Improve public code and migrate to manifest 
+	+ Shift some comnetns nad seperate, 
+	+ Implement usage of ... differently 
+		+ amazon 
+		+ table 
+		+ scroller
+		+ models 
+		+ communitation with database components ( implemented through model ) 
++ Intergrate amws
+	+ updating stock at the end of day
+	+ retrieving stock for recalculaton 
+	+ retriveing orders 
+	+ updating orders 
+	+ keeping in contact with orders 
+	+ retriving seller information possibly?
+		+ income 
+		+ other stuff, standing ?	
+
++ freepost scaner 
+	+ session start 
+		+ every user scaned and a cheque data form them and all the things it requires 
+		  in order to print 
+		+ send email to users  
+		+ if letter is confrimed to print then it is tagged as confirmed print 
+		+ confirm shippment if not confirming shippent then the cheques are added to cheque print object
+		+ everything from a session can be commmited after it is cimplete rather than during, saves database trips
+	+ Query amazon 
+		+ Run algorithm on the book
+	+ Find user 
+	+ See if user has scaned book
+	+ Add up prices
+	+ Display books 
+	+ Cheque print pdf
+	+ add new books to database
+	+ remove price promises from users
+	+ crate object to house books and data
+
++ stock 
+	+ internal databse every book commited is labled if it comes from recyclabus or freepost
+	+ sku system 
+		+ ...
+	+ extract price promise books from users and display them 
+	+ filter shows reyclabus, freepost books, and can exract from users books
+	+ editable 
+	+ amazon recalculation
+	+ amazon mws syncing stock with the amazon one at set times ( auto sync? )
++ displatch 
+	+ session start 
+	+ actions 
+		+ message users somethign in particular 
+		+ delete entry,
+		+ confirm marks it as sent 
+		+ print letters, 
+			+ order splips for orders 
+			+ letter for freepost pack 
+			+ if cheque has confirmed print it does not print 
+	+ amws retrieve data  from the store and orders 
+	+ confirming amazon orders would send all the orders as complete on amazon after session end 
+	+ retrieve data from our own object for pending freeposts 
+	+ retrieve data from our own object for pending cheques to be sent if there is no confrim shippment 
++ users 
+	+ Add users 
+	+ delete 
+	+ modify 
++ expenses 
+	+ income 
+		+ from amws 
+	+ outcome 
+		+ recyclabus
+		+ freepost  
++ master 
+	+ register users,
+		+ manage users 
+		+ premisions 
+			+ premision infrastructure 		
+	+ sessions, 
+		+ shift through sessions 
+		+ filter
+		+ delete
+		+ modify even?
+	+ View expenses from the expense object 
+	+ ...?
