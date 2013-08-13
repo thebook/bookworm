@@ -1,2 +1,0 @@
-echo.Creating a clean copy of: %CD%, and copying it to %copy_path%
-robocopy "%CD%" "%copy_path%" /S /XF *.txt *.bat *.gitignore *.scss *.scssc *.sublime-project *.sublime-workspace /XD batch .git .sass-cache sass
