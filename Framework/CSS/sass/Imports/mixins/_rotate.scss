@@ -1,8 +1,0 @@
-@mixin rotate ($deggres) { 
-
-	-moz-transform: 		rotate(#{$deggres}deg);
-	-webkit-transform: 		rotate(#{$deggres}deg);
-    -o-transform: 		  	rotate(#{$deggres}deg);
-    -ms-transform: 		  	rotate(#{$deggres}deg);
-    transform: 		 	  	rotate(#{$deggres}deg);
-}

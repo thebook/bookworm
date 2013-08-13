@@ -1,8 +1,0 @@
-# Ignore basic things like pngs, and sass caches
-*.png 
-*.scss
-*.gif
-*.eot
-*.svg
-*.ttf
-*.woff

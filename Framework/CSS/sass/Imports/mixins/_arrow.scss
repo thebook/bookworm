@@ -1,9 +1,0 @@
-@mixin arrow($height, $width, $color, $second_color:transparent) {
-
-	width: 1px;
-	height: 1px; 
-	// border-top: 1px solid transparent;
-	border-left: $height solid $second_color;
-	border-right: $height solid $second_color;
-	border-bottom: $width solid $color;
-}
