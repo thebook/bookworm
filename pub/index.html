@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				margin: 0;
+			}
+
+			.bar { 
+				width: 50px;
+				height: 100%;
+				background: #777;
+				display: inline-block;
+				position: absolute;
+				float: left;
+				z-index: 1;
+				animation-duration         : 600ms;
+				animation-name             : somes;
+				-webkit-animation-duration : 600ms;
+				-webkit-animation-name     : somes;
+			}
+
+			.tailor { 
+				width: 370px;
+				height: 100%;
+				float: left;
+				display: inline-block;
+				position: absolute;
+				background: #222;
+				/*left: -370px;*/
+				left: 50px;
+				animation-duration         : 700ms;
+				animation-name             : some;
+				/*animation-delay            : 50ms;*/
+				-webkit-animation-duration : 700ms;
+				/*-webkit-animation-delay    : 50ms;*/
+				-webkit-animation-name     : some;
+			}
+
+			@-webkit-keyframes somes { 
+				from {
+					left: -50px;
+				}
+				to { 
+					left: 0px;
+				}
+			}
+
+			@keyframes somes { 
+				from {
+					left: -50px;
+				}
+				to { 
+					left: 0px;
+				}
+			}
+
+			@-webkit-keyframes some { 
+				from {
+					left: -370px;
+				}
+				to { 
+					left: 50px;
+				}
+			}
+
+			@keyframes some { 
+				from {
+					left: -370px;
+				}
+				to { 
+					left: 50px;
+				}
+			}
+
+		</style>
+		<script data-main="manifest.load.define" src="manifest/require.js"></script>
+	</head>
+	<body></body>
+</html>
